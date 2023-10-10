@@ -9,19 +9,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="points">
+        <div id="container">
+        <div class="points" id="offset">
         <h2 id="counter">Points: 0</h2>
         </div>
-        <div class="hint">
+        <div class="hint" id="hint">
         <h1>Think back to grade school.</h1>
+        </div>
+        <div id="offset1"></div>
         </div>
         <br><br><br><br><br>
         <div class="hint">
+        <div id="apple-switches">
         <input class="apple-switch" id="switch" type="checkbox" onclick="theRealWork()">
         <br>
         <input class="apple-switch" type="checkbox" onclick="theRealWork()">
         <br>
         <input class="apple-switch" type="checkbox" onclick="theRealWork()">
+        </div>
         </div>
         <script src="script.js" async defer></script>
     </body>
